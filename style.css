@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url('https://i.pinimg.com/564x/fe/49/79/fe49795fa34dfa740a5501eda2a487a0.jpg');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.stop-button {
+  padding: 12px 30px;
+  margin: 10px;
+  background-color: #ff4444;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.stop-button:hover {
+  background-color: #cc0000;
+}
